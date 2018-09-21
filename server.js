@@ -31,4 +31,4 @@ app.get('/newContact', (req, res) => {
 app.use('/contacts', contacts);
 
 //Server
-app.listen(30000, () => console.log('Server started'));
+app.listen(80, () => console.log('Server started'));
